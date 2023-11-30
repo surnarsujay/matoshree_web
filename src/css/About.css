@@ -1,0 +1,43 @@
+
+.Mycard {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+ 
+  .Mycard:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    background-color:rgb(247,163,8);
+  }
+  /* .Maincard {
+background-color: brown;
+margin-top: 30px;
+  }
+   */
+
+
+   .Mycard1 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+ 
+  .Mycard1:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    background-color: hsl(194,90%,52%);
+  }
+
+  
+  .Mycard2 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+ 
+  .Mycard2:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    background-color: rgb(127,255,0);
+  }

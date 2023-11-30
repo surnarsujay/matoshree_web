@@ -1,0 +1,112 @@
+/* Custom CSS to increase the row height of the carousel items */
+.carousel-item {
+    height: 350px; /* Set your desired height here */
+  }
+  h1,p{
+      color: #666666;  
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 15px; 
+    
+  }
+  span{
+    color: #ef4141;  
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 19px; 
+  
+  }
+  .role{
+    color: #363636;  
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px; 
+  }
+  .center-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the div takes up the full height of the carousel item */
+    text-align: center;
+  }
+  /* Style for the dots */
+  .custom-indicators {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  .custom-indicators button.dot {
+    background-color: #bbb; /* Default dot color */
+    border: none;
+    border-radius: 50%;
+    width: 3px;
+    height: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the active dot */
+  .custom-indicators button.active {
+    background-color: #353434; /* Active dot color */
+    width: 5px;
+    height: 5px;
+  }
+  
+  
+  .carousel-item .center-text p,
+  .carousel-item .center-text span {
+    opacity: 0; /* Start with the elements hidden */
+    transform: translateY(30px); /* Start with the elements moved down */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  
+  .carousel-item.active .center-text p,
+  .carousel-item.active .center-text span {
+    opacity: 1; /* Make the elements visible */
+    transform: translateY(0); /* Move the elements back to their original position */
+  }
+  h3{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.7;
+    color: black;
+    margin: 0px;
+  }
+   /* CSS for the carousel control buttons */
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none; /* Initially hide the buttons */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid transparent; /* Set a transparent border initially */
+    border-radius: 50%; /* Make the buttons circular */
+    width: 40px;
+    height: 40px;
+    background-color: transparent; /* Set a transparent background initially */
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+   
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    border-color: rgb(253, 193, 82); /* Change the border color to orange on hover */
+    background-color: transparent; /* Keep the background transparent on hover */
+  }
+  
+  /* Show the buttons when the cursor is over the page */
+  body:hover .carousel-control-prev,
+  body:hover .carousel-control-next {
+    display: block;
+  }
+  
+  /* Style the icons inside the buttons */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    font-size: 20px;
+  }

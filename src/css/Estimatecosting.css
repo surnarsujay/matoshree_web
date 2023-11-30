@@ -1,0 +1,10 @@
+@media (min-width: 769px) {
+    .video-card {
+      /* Set height to 500px for large screens */
+      height: 530px;
+    }
+  }
+  .body{
+    margin: 0px;
+    padding: 0px;
+}

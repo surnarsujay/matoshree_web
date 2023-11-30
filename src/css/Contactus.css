@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.text9 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666666;
+}
+
+.contactus {
+    top: 10%;
+    left: 0;
+    right: 0;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 30px !important;
+    line-height: 1.7;
+    color: black;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+/* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+.sendmsg {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* Style the form elements */
+.wrap-inputname,
+.wrap-inputemail,
+.wrap-inputphone,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+   
+}
+
+/* Style the submit button */
+.wrap-btn-booking button {
+    background-color:black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+margin-left: 250px;
+height: 40px;
+width:100px;
+}
+
+
+.bo-rad-10.sizefull.txt10.p-l-20.text {
+    margin-left: 12px;
+}
+
+input[type="text"] {
+    margin-left: 5px;
+}
+
+.mycontact{
+    background-color: whitesmoke;
+    margin-top: 100px;
+}
+
+
+@media (max-width: 767px) {
+   
+    .sendmsg{
+      width: 100%;
+    }
+    .mts{
+        width: 100%;
+    }
+  }

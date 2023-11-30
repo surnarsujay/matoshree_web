@@ -1,0 +1,74 @@
+/* CardSlider.css */
+
+/* Container for the card slider */
+.card-slider-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* Styling for the individual cards */
+.custom-card {
+  width: 400px; /* Set the width to 200px */
+  height: 300px; /* Set the height to 300px */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+  text-align: center;
+  margin-bottom: 30px;
+  margin: 0px;
+}
+
+/* Styling for the card title (h2) */
+.custom-card h2 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.7;
+  color: black;
+  margin: 0;
+  margin-top: 50px;
+}
+
+/* Styling for the text content (p) */
+.custom-card p {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0;
+}
+
+/* Navigation buttons for the slider */
+.slider-button {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  
+ border: none;
+  padding: 10px;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 1);
+  transition: color 0.3s ease, background 0.3s ease;
+  outline: none;
+  margin-bottom: 40px;
+}
+
+.slider-button-left {
+  left: -100px;
+}
+
+.slider-button-right {
+  right: -100px;
+}
+
+.slider-button:hover {
+  color: #555;
+  background: rgba(255, 255, 255, 1);
+}

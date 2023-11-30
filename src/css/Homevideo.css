@@ -1,0 +1,129 @@
+
+
+   .myvideo {
+    width: 100%;
+    /* padding-top: 56.25%; 16:9 aspect ratio (9 / 16 * 100) */
+    border-radius: 15px;
+    pointer-events: auto;
+    margin: 0 0px;
+  }
+  
+  .myvideo::-webkit-media-controls-enclosure {
+    display: none;
+  }
+  
+  .myvideo::-webkit-media-controls-panel {
+    display: none;
+  }
+  
+  .myvideo::-webkit-media-controls-play-button {
+    display: none;
+  }
+  
+
+  
+
+
+
+.video-container {
+  position: relative;
+}
+
+.video-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.video-text h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 60px;
+  line-height: 1.1;
+  color: #29acee;
+  margin: 0;
+}
+
+.video-text h1:last-child {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 1.1;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+}
+
+@media (max-width: 767px) {
+  .video-text h1 {
+      font-size: 25px; /* Adjust the font size for mobile */
+  }
+
+  .video-text h1:last-child {
+      font-size: 25px; 
+      letter-spacing: 5px;
+      word-spacing: 5px; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .video-text h1 {
+      font-size: 40px;
+  }
+
+  .video-text h1:last-child {
+      font-size: 80px; 
+      letter-spacing: 7px; 
+      word-spacing: 7px; 
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .video-text h1 {
+      font-size: 50px; 
+  }
+
+  .video-text h1:last-child {
+      font-size: 100px; 
+      letter-spacing: 8px; 
+      word-spacing: 8px; 
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .video-text h1 {
+      font-size: 60px; 
+  }
+
+  .video-text h1:last-child {
+      font-size: 120px; 
+      letter-spacing: 10px; 
+      word-spacing: 10px; 
+  }
+}
+@media (max-width: 767px) {
+  .video-container {
+    padding-top: 30%; 
+  }
+
+  .video-text {
+    top: 50%;
+  }
+
+  .video-text h1 {
+    font-size: 25px;
+  }
+
+  .video-text h1:last-child {
+    font-size: 25px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+  }
+  .mt-md-0{
+  padding-top: 0px;
+  }
+}

@@ -1,0 +1,58 @@
+.card main{
+   color: white;
+   margin: auto;
+   background-color: black;
+   padding-top: 1em;
+   position: relative;
+   border: 0;
+   width: 100%;
+}
+.main-footer{
+   background-color: rgb(241, 238, 238);
+}
+.list-unstyled li:hover{
+   color:blue;
+   cursor: pointer;
+}
+.Footertitle{
+   font-size: 20px;
+   margin-top:  30px;
+}
+.list-unstyled{
+   text-align: start;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 15px;
+   color: #2e2d2d;  
+}
+address{
+   text-align: start;
+   font-family: Montserrat;
+   font-weight: 400;
+   font-size: 15px;
+   color: #2e2d2d;  
+}
+.media{
+   display: flex;
+   gap: 0.9rem;
+   flex-direction: row-reverse;
+   color: black;
+   /* margin-right: 3px; */
+}
+.mail,.contact{
+  
+   font-size: 16px;
+}
+
+.rowmedia{
+   margin-right: 15px;
+}
+.botm{
+ border-top: #706e6e 0.5px solid;
+ border-radius: 0%;
+ padding: 0%;
+ background-color: rgb(128, 125, 125);
+}
+.pname{
+  color: black;
+}

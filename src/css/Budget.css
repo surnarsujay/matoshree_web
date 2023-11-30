@@ -1,0 +1,86 @@
+.subcard{
+    border: none;
+}
+.titlename{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.7;
+    color: black;
+    margin: 0px;
+}
+.subname{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.7;
+    color: black;
+    margin: 0px;
+}
+.card subcard-title{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    color: black;
+    margin: 0px;
+}
+.subnameBud{
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.nameBud{
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 1.7;
+
+}
+.Paregraph{
+    text-align: left;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 400;
+
+}
+.unlist{
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.table-container{
+    text-align: left;
+
+}
+.table-container {
+    border-collapse: collapse;
+    width: 700px;
+    
+  }
+  
+  
+  .tabletr {
+    border: 1px solid #ccc;
+  }
+  
+  .tabletd {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  .tablediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .img2 {
+      
+        margin-left:-80px;
+    }
+}

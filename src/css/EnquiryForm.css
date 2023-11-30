@@ -1,0 +1,23 @@
+h3{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.7;
+    color: black;
+    margin: 0px;
+}
+ input{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666666;  
+    background-color: #838181;
+ }  
+ input::placeholder {
+    color: rgb(175, 174, 174); /* Change the placeholder text color to gray */
+    /* background-color: #838181; */
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color: #424242;  
+}

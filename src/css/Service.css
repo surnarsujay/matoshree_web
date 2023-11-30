@@ -1,0 +1,114 @@
+.textCenterCustom {
+    text-align: center;
+    font-family: Montseerrat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.7;
+    color: black;
+    margin: 0px;
+  }
+
+  .servicecard{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ transition: transform 0.3s, box-shadow 0.3s;
+ 
+}
+ .servicecard:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+ }
+
+.card-body.d-flex.justify-content-start.align-items-center1:hover {
+    border-radius: 10px;
+    transform: scale(1.07); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+    background-color:rgb(247,163,8);
+}
+ 
+.card-body.d-flex.justify-content-start.align-items-center2:hover {
+    border-radius: 10px;
+    background-color: hsl(194, 90%, 52%);
+    transform: scale(1.07); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+
+transform: scale(1.1); 
+}
+.card-body.d-flex.justify-content-start.align-items-center3:hover {
+    border-radius: 10px;
+    background-color:#69cc0c;
+ transform: scale(1.07); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+}
+.card-body.card-body.d-flex.justify-content-start.align-items-center1{
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
+
+}
+
+.card-body.card-body.d-flex.justify-content-start.align-items-center2{
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.card-body.card-body.d-flex.justify-content-start.align-items-center3{
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color:#666666;
+}
+
+
+.learn-more-link{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color:#666666;
+
+}
+
+
+
+h5{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color:#666666;
+}
+
+
+
+.card-body > div {
+    pointer-events: none; /* This prevents hover events on the icon div */
+}
+.card-servicecard{
+    transition: "all 0.6s ease-in-out",
+
+
+
+}
+@media (max-width: 767px) {
+    .card {
+        margin-top: 20px; /* Add padding to the top of cards on mobile screens */
+    }
+    .text-container {
+        top: 10%; 
+        left:20%;/* Adjust vertical positioning as needed */
+    }
+}
+
+/* Media query for screens with a minimum width of 768px */
+@media (min-width: 768px) {
+    .text-container h3 {
+        text-align: center;
+        
+    }
+}

@@ -1,0 +1,76 @@
+.text-start{
+    top: 50%;
+    margin: 0px;
+    position: absolute; 
+    top: 20px; 
+    left: 100px;
+}
+.image-container {
+    position: relative; 
+}
+
+.card-img {
+    width: 100%; 
+}
+
+
+.text-start  {
+    
+    font-size: 24px;
+      font-family: Montseerrat;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.7;
+    color: brown;
+    
+}
+
+.text h1{
+    position: absolute;
+    font-size: 24px;
+      font-family: Montseerrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.7;
+    color: brown;
+}
+.vc_sep_line {
+    width: 100%;
+    border-top: 1px solid black; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.founder-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px; /* Adjust as needed */
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: black; 
+   
+  }
+  
+  .centered-text {
+    text-align: center;
+    margin: 0 10px;
+    font-size: 24px;
+      font-family: Montseerrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.7;
+    color: black;
+  }
+  .card.mb-3{
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  @media (max-width: 768px) {
+    .info {
+        width: 100%;
+    }
+}

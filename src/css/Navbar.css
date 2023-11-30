@@ -1,0 +1,110 @@
+
+.custom-collapse {
+    margin-left: 30px; 
+  display: flex;
+align-items: center;
+justify-content: flex-end;}
+  
+
+.mynav {
+  list-style: none;
+  display: flex;
+
+}
+
+
+.mylinktag{
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.9s;
+}
+
+.mylinktag:hover{
+  color: red;
+}
+
+.mylinktag1{
+  color: black;
+  transition: color 0.9s;
+  margin-left: 20px;
+}
+
+.mylinktag1:hover{
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .custom-collapse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+
+  .mynav {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .mynav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .ms-auto {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .custom-collapse {
+    
+    flex-direction: column;
+  }
+  .mylinktag1 {
+    margin-left: 0px;
+    float:left;
+  }
+
+  .ml-auto {
+   
+    margin-left: auto;
+    margin-right: 220px;
+    float: left;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .abc {
+   margin-right: 30px;
+    
+  }
+
+  .navbar-toggler-icon {
+   float: left;
+  }
+}
+
+.mylinktag1{
+  color: black;
+  transition: color 0.9s;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+
+ .mylinktag.active {
+  font-weight: 700;
+   color:rgb(33, 170, 51);   
+ }     
+
+ .custom-navbar .navbar-toggler-icon {
+  font-size: 0.8rem; 
+
+}
+
+.mr-auto.mynav{
+margin-right: 80px;
+}

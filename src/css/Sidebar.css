@@ -1,0 +1,35 @@
+
+.sidebar-link {
+    color: rgb(12, 12, 12); 
+    transition: color 0.3s; 
+    /* margin-left: -30px; */
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.sidebar-link:hover {
+    color: red; 
+}
+
+.drop{
+    margin-top: 30px;
+    margin-left: -30px;
+
+}
+
+
+.mysidebar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+.mysidebarImg{
+  text-align: center;
+
+}
+.mapdiv{
+    margin-top: 25px;
+    text-align: center;
+ }

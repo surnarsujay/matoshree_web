@@ -1,0 +1,130 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.text-center{
+    font-family: Montseerrat;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.7;
+    color: black;
+    margin: 0px;
+}
+
+
+.header-intro {
+    position: relative;
+}
+
+.text-container {
+    top: 10%;
+    left: 0;
+    right:0;
+    font-family: Montseerrat;
+    font-weight: 400;
+    font-size: 30px !important;
+    line-height: 1.7;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.card {
+    transition: all 0.6s; 
+    overflow: hidden;/* Apply transition only to the card's transform property */
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    transition: all 0.6s; 
+}
+
+.card-img-top {
+    width: 100%; /* Make sure the image width is 100% inside the card */
+}
+
+
+.learn-more-link:hover {
+    color: rgb(51, 0, 255);/* Change the color to your desired hover color */
+  }
+  .learn-more-link{
+    text-decoration: none;
+    color: black;
+  }
+
+.textCenterCustom {
+    text-align: center;
+  }
+
+.card-body.d-flex.justify-content-start.align-items-center:hover {
+    border-radius: 10px;
+background-color: rgb(247, 163, 8);
+transform: scale(1.1); 
+}
+    
+.card-text{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color:#666666;
+}
+
+
+.learn-more-link{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color:#666666;
+
+}
+
+.card-title{
+    font-family: Montseerrat;
+    font-weight: 400;
+    font-size:20px;
+    line-height: 1.7;
+    color: black;
+    margin: 0px;
+}
+
+
+.card-body > div {
+    pointer-events: none; /* This prevents hover events on the icon div */
+}
+.card{
+    transition: "all 0.6s ease-in-out",
+
+
+
+}
+@media (max-width: 767px) {
+    .card {
+        margin-top: 20px; /* Add padding to the top of cards on mobile screens */
+    }
+    .text-container {
+        top: 10%; 
+        left:20%;/* Adjust vertical positioning as needed */
+    }
+}
+
+/* Media query for screens with a minimum width of 768px */
+@media (min-width: 768px) {
+    .text-container h3 {
+        text-align: center;
+        
+    }
+}
+
+  /* Media query for large screens (e.g., screens wider than 768px) */
+  @media (min-width: 769px) {
+    .video-card {
+      /* Set height to 500px for large screens */
+      height: 530px;
+    }
+  }
+
+ .mainrow{
+    padding:   20px;
+ }

@@ -1,0 +1,33 @@
+.call-gmail-buttons {
+	position: fixed;
+	bottom: 15px;
+	left: 20px;
+    
+}
+
+.image-container {
+    position: relative;
+   
+    
+}
+
+.call-gmail-buttons a {
+	display: inline-block;
+width: 50px !important;
+    height: 50px !important;
+    box-shadow: 2px 1px #0d630d63 !important;
+    transition: 1s !important;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	margin-bottom: 10px;
+}
+
+
+.call-gmail-buttons img:hover {
+	filter: brightness(115%) !important;
+    transform: rotate(15deg) scale(1.15) !important;
+    cursor: pointer !important;
+    transition: 1s !important;
+    transform: translateY(-10px);
+}
