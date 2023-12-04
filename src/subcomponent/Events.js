@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Container, Row, Col } from 'react-bootstrap';
 import { FaArrowRight } from "react-icons/fa";
-import ev from '../images/ev.jpg';
 import ev1 from '../images/ev1.jpg';
 import ev2 from '../images/ev2.jpg';
 import ev3 from '../images/ev3.jpg';
@@ -50,8 +49,8 @@ const Events = () => {
 
     useEffect(() => {
         // Fetch data from the API endpoint
-        axios.get('http://localhost:3001/api/events')
-            //axios.get('https://matoshreewebsite.lissomtech.in/APIMatoshree/api/events')
+        // axios.get('http://localhost:3001/api/events')
+            axios.get('https://matoshreesite.lissomtech.in/api/events')
             .then(response => {
                 // Log the fetched data to the console
                 console.log('Fetched Data:', response.data);
@@ -70,8 +69,8 @@ const Events = () => {
 
     useEffect(() => {
 
-        axios.get('http://localhost:3001/api/get_event_header')
-            //axios.get('https://matoshreewebsite.lissomtech.in/APIMatoshree/api/events')
+        // axios.get('http://localhost:3001/api/get_event_header')
+            axios.get('https://matoshreesite.lissomtech.in/api/get_event_header')
             .then(response => {
                 console.log('Fetched Data:', response.data);
                 setEventHeadData(response.data);
